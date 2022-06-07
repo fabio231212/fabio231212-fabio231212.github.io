@@ -1,0 +1,79 @@
+*{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/71/e6/80/71e68039ee3071585064d24d8b2e919f.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    height: 150px;
+    background-color: rgba(77, 76, 76, 90%);
+    border-radius: 10px;
+    
+
+}
+header h1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+.divs{
+    background-color: rgba(77, 76, 76, 60%);
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: wavy;
+
+}
+.divs table{
+    margin: auto;
+    width: 50%;
+    border-collapse: separate;
+   border-spacing: 5px;
+   border-style: double;
+
+    
+    
+}
+.candidatos{
+    object-fit: cover;
+    height: 250px;
+    width: 250px;    
+}
+
+td, th {
+    background:rgba(77, 76, 76, 60%) ;
+   
+ }
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+ }
+ footer{
+    background-color: rgba(77, 76, 76, 90%);
+    margin-top: 80px;
+    height: 100px;
+ }
+
+ .btn-primary{
+     margin-left: 80px;
+ }
+ .card{
+     margin: auto;
+     background:rgba(77, 76, 76, 60%) ;
+ }
+ main{
+    background:rgba(77, 76, 76, 60%) ;
+    text-align: center;
+ }
+ section{
+    background:rgba(77, 76, 76, 70%) ;
+    
+ }
+ .redes{
+     display: inline-flex;
+   list-style: none;
+   /* padding-left: 15px; */
+ }
