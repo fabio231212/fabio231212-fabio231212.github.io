@@ -41,11 +41,16 @@ header h1{
     height: 250px;
     width: 250px;    
 }
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 td, th {
     background:rgba(77, 76, 76, 60%) ;
    
  }
+ 
 a{
     color: white;
     text-decoration: none;
@@ -73,7 +78,28 @@ a{
     
  }
  .redes{
-     display: inline-flex;
+   display: flex;
+   justify-content: center;
    list-style: none;
    /* padding-left: 15px; */
  }
+ footer{
+     text-align: center;
+     height: 150px;
+ }
+ footer a{
+    color: white;
+    text-decoration: none;
+    font-size: inherit;
+ }
+video{
+    margin-left: auto;
+    margin-right: auto;
+
+}  
+footer a  img{
+    padding-right: 35px;
+}
+.divs table{
+    margin-bottom: 100px;
+}
