@@ -116,3 +116,33 @@ footer li{
 footer a{
     color: #fff;
     } 
+
+    @media screen and (max-width: 720px){
+        nav li{
+            display: block;
+            margin: 0px auto;
+            border-right: 0px;
+        }
+        .contenedorMainSections{
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+        .contenedorPrincipal{
+            width: 100%;
+            margin: 0;
+        }
+        .texto-encima{
+            display: none;
+        }
+        .arbolbeforep{
+            float: none;
+            width: auto;
+        }
+        .rana{
+            float: none;
+            width: 100%;
+        }
+
+
+    }

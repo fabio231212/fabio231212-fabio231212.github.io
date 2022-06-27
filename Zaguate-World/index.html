@@ -12,47 +12,52 @@
 </head>
 
 <body>
+  <div>
+    <img src="./images/sun.png" alt="sun">
+  </div>
   <div class="container">
 
     <header>
 
 
       <div class="imgHeader">
-        <img class="perrito-header" src="./images/perrito.jpg" alt="perroheader">
-        <img class="perrito-header" src="./images/perrito.jpg" alt="perro-header">
+        <img class="logo" src="./images/logo.png" alt="logo">
+        
       </div>
       <br>
 
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Conciencia</a></li>
-          <li><a href="#">Noticias</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./conciencia.html">Conciencia</a></li>
+          <li><a href="./Noticias.html">Noticias</a></li>
           <li><a href="#">Galería</a></li>
           <div class="dropdown">
             <button class="dropbtn">Adoptar</button>
             <div class="dropdown-content">
-              <a href="#">Zaguates Pequeños</a>
+              <a href="./perritopeque.html">Zaguates Pequeños</a>
               <a href="#">Zaguates Medianos</a>
               <a href="#">Zaguates Grandes</a>
             </div>
-            </li>
-            <li><a href="#">Acerca de nosotros</a></li>
+          </div>
+          <li><a href="#">Acerca de nosotros</a></li>
         </ul>
+        
       </nav>
     </header>
-    <main> 
+    <main class="mainIndex"> 
 
     
     <article class="article-zaguate">
       <h1>¿Por qué un zaguate?</h1>
-      <p>
+      <img class="perrito-main" src="./images/Animado05.png" alt="perro-header">
+      <p class="texto">
       Si estas buscando una mascota nueva lo más seguro es que ya tengas algo en mente, si es un
       perro, seguro te lo has imaginado, sabes de qué tamaño te gustaría, quieres que sea de la raza
       que siempre te ha encantado y nada te ilusiona más que tenerlo cuando sea cachorro para
       consentirlo y tenerlo cerca todo el tiempo. Pero hay muchas razones por las que adoptar a un
-      zaguate es mucho mejor opción que comprarlo, y con toda la intención de convencerte y de que
-      compartas nuestra forma de pensar, te damos las 10 razones para que adoptes en lugar de
+      <strong>zaguate </strong> es mucho mejor opción que comprarlo, y con toda la intención de convencerte y de que
+      compartas nuestra forma de pensar, te damos las 10 <strong>10 razones para que adoptes</strong> en lugar de
       comprar:
     </p>
     <ol>
@@ -70,25 +75,35 @@
 
       
     </article>
-    <img class="perrito-main" src="./images/perrito.jpg" alt="perro-header">
+   
    
     <aside class="aside-right">
       <div class="aside-div">
         <h3>Los recién llegados </h3>
         <p>12/11/2021</p>
         <ul>
-          <li>Doggi</li>
-          <li>Dala</li>
+          <li>
+            <a href="#">Doggi</a>
+          </li>
+          <li>
+            <a href="#">Dala</a>
+          </li>
+          <li>
+            <a href="#">Pepe</a>
+          </li>
+          <li>
+            <a href="#">Canelo</a>
+          </li>
         </ul>
       </div>
       <div class="aside-div">
         <h3>Cuidados de su zaguate</h3>
-        <p> Un zaguate no es un objeto más de la casa, es otro miembro de la familia y como tal 
-          debe tener todos los cuidados... seguir leyendo</p>
+        <p> Un <strong>zaguate </strong> no es un objeto más de la casa, es otro miembro de la familia y como tal 
+          debe tener todos los cuidados... <a href="">seguir leyendo</a> seguir leyendo</p>
       </div>
       <div class="aside-div">
         <h3>Contáctenos</h3>
-        <p>Nos gustaría saber de usted, <a href="#">zaguateworld@gmail.com</a> o complete el <a href="#">formulario</a></p>
+        <p><strong> Nos gustaría saber de usted,</strong> <a href="#">zaguateworld@gmail.com</a> o complete el <a href="#">formulario</a></p>
       </div>
     </aside>
   </main>
@@ -102,6 +117,9 @@
     </ul>
     <p>Copyright© <a href="#">Zaguate World</a></p>
   </footer>
+  </div>
+  <div class="pasto">
+    <img src="./images/grass.png" alt="sun" id="pastoo">
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
