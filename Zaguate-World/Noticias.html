@@ -2,80 +2,104 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zaguate World</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 </head>
 
 <body>
-  <div>
-    <img src="./images/sun.png" alt="sun">
-  </div>
-  <div class="container">
+  <div class="containergrass">
+    <div>
+      <img src="./images/sun.png" alt="sun" />
+    </div>
+    <div class="container">
+      <header>
+        <div class="imgHeader">
+          <img class="logo" src="./images/logo.png" alt="logo" />
+        </div>
+        <br />
 
-    <header>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./conciencia.html">Conciencia</a></li>
+            <li><a href="./Noticias.html">Noticias</a></li>
+            <li><a href="./galeria.html">Galería</a></li>
+            <div class="dropdown">
+              <button class="dropbtn">Adoptar</button>
+              <div class="dropdown-content">
+                <a href="./perritopeque.html">Zaguates Pequeños</a>
+                <a href="#">Zaguates Medianos</a>
+                <a href="#">Zaguates Grandes</a>
+              </div>
+            </div>
+            <li><a href="./acerca-de.html">Acerca de nosotros</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Noticias importantes</h1>
+        <section class="noticias">
+          <article class="noticia">
+            <h2>Rescatan perrito</h2>
+            <p>
+              Tras una alerta que ingresó la tarde del jueves 9 de junio, los
+              oficiales de la Fuerza Pública de Alajuelita, San José junto con
+              la Policía Municipal rescataron a un perro que tenían en estado
+              de abandono dentro de una propiedad ubicada en el residencial La
+              Chorotega de dicho cantón. <br />Los oficiales al llegar,
+              ubicaron a varias personas indignadas ya que aseguraron que hace
+              días escuchaban a un perro ladrar y al ser revisada la zona, los
+              policías encuentran al can en muy malas condiciones, desnutrido,
+              lo que aparenta que tenía días sin comer y sin recibir atención
+              alguna.
+              <cite>Noticia tomada de
+                <a
+                  href="https://elguardian.cr/rescatan-perro-abandonado-y-sindican-a-duenos-por-maltrato/">elguardian.cr</a></cite>
+            </p>
+          </article>
+          <article class="noticia">
+            <h2>La moda perjudica a los perritos</h2>
+            <p>
+              Para generar cualquier raza de perros estos deben cruzarse entre
+              sí, aprovechando animales nacidos espontáneamente con alguna
+              alteración anatómica, para amplificarla y preservarla. Esto
+              genera un aumento de la consanguinidad, que conlleva unos peajes
+              y problemas de supervivencia y aumento de la probabilidad de
+              desarrollar enfermedades de base genética, bien conocidas por
+              todos, también por los criadores de perros.
+              <br />
+              Hoy sabemos que por lo menos un 15% de las razas actuales de
+              perros desarrollan alguna enfermedad congénita, más o menos
+              grave, que puede comprometer la vida del animal. Son una muestra
+              la distrofia muscular, la parálisis de patas traseras que a
+              menudo afecta a los golden retriever y labradores, y la sordera
+              unilateral o bilateral que desarrollan los perros dálmata.
+              <cite>Información tomada de
+                <a
+                  href="https://www.heraldo.es/noticias/sociedad/2022/06/25/las-modas-estan-perjudicando-la-calidad-de-vida-de-los-perros-1583854.html">Heraldo.es</a></cite>
+            </p>
+          </article>
+        </section>
+      </main>
 
-
-      <div class="imgHeader">
-        <img class="logo" src="./images/logo.png" alt="logo">
-        
-      </div>
-      <br>
-
-      <nav>
+      <footer>
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./conciencia.html">Conciencia</a></li>
-          <li><a href="#">Noticias</a></li>
-          <li><a href="#">Galería</a></li>
-          <div class="dropdown">
-            <button class="dropbtn">Adoptar</button>
-            <div class="dropdown-content">
-              <a href="#">Zaguates Pequeños</a>
-              <a href="#">Zaguates Medianos</a>
-              <a href="#">Zaguates Grandes</a>
-            </div>
-          </div>
-          <li><a href="#">Acerca de nosotros</a></li>
+          <li><a href="./Noticias.html">Noticias</a></li>
+          <li><a href="./galeria.html">Galería</a></li>
+          <li class="li-last"><a href="./acerca-de.html">Acerca de nosotros</a></li>
         </ul>
-        
-      </nav>
-    </header>
-    <main>
-        <h1>Noticias importantes</h1>
-        <section class="noticias">
-            <article class="noticia">
-                <h2>Rescatan perrito</h2>
-                <p>Tras una alerta que ingresó la tarde del jueves 9 de junio, los oficiales de la Fuerza Pública de Alajuelita, San José junto con la Policía Municipal rescataron a un perro que tenían en estado de abandono dentro de una propiedad ubicada en el residencial La Chorotega de dicho cantón. <br>Los oficiales al llegar, ubicaron a varias personas indignadas ya que aseguraron que hace días escuchaban a un perro ladrar y al ser revisada la zona, los policías encuentran al can en muy malas condiciones, desnutrido, lo que aparenta que tenía días sin comer y sin recibir atención alguna.
-                <cite>Noticia tomada de <a href="https://elguardian.cr/rescatan-perro-abandonado-y-sindican-a-duenos-por-maltrato/">elguardian.cr</a></cite></p>
-            </article>
-            <article class="noticia">
-                <h2>La moda perjudica a los perritos</h2>
-                <p>Para generar cualquier raza de perros estos deben cruzarse entre sí, aprovechando animales nacidos espontáneamente con alguna alteración anatómica, para amplificarla y preservarla. Esto genera un aumento de la consanguinidad, que conlleva unos peajes y problemas de supervivencia y aumento de la probabilidad de desarrollar enfermedades de base genética, bien conocidas por todos, también por los criadores de perros.
-                    <br>
-                    Hoy sabemos que por lo menos un 15% de las razas actuales de perros desarrollan alguna enfermedad congénita, más o menos grave, que puede comprometer la vida del animal. Son una muestra la distrofia muscular, la parálisis de patas traseras que a menudo afecta a los golden retriever y labradores, y la sordera unilateral o bilateral que desarrollan los perros dálmata. <cite>Información tomada de <a href="https://www.heraldo.es/noticias/sociedad/2022/06/25/las-modas-estan-perjudicando-la-calidad-de-vida-de-los-perros-1583854.html">Heraldo.es</a></cite></p>
-            </article>
-        </section>
-    </main>
-
-  <footer>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Conciencia</a></li>
-      <li><a href="#">Noticias</a></li>
-      <li><a href="#">Galería</a></li>
-      <li class="li-last"><a href="#">Acerca de nosotros</a></li>
-    </ul>
-    <p>Copyright© <a href="#">Zaguate World</a></p>
-  </footer>
+        <p>Copyright© <a href="#">Zaguate World</a></p>
+      </footer>
+    </div>
   </div>
-  <div class="pasto">
-    <img src="./images/grass.png" alt="sun" id="pastoo">
-  </div>
+  <div class="pasto"></div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>

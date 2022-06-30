@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="containergrass">
+        <div>
+          <img src="./images/sun.png" alt="sun">
+        </div>
+        <div class="container">
+      
+          <header>
+      
+      
+            <div class="imgHeader">
+              <img class="logo" src="./images/logo.png" alt="logo">
+              
+            </div>
+            <br>
+      
+            <nav>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./conciencia.html">Conciencia</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <div class="dropdown">
+                  <button class="dropbtn">Adoptar</button>
+                  <div class="dropdown-content">
+                    <a href="./perritopeque.html">Zaguates Pequeños</a>
+                    <a href="#">Zaguates Medianos</a>
+                    <a href="#">Zaguates Grandes</a>
+                  </div>
+                </div>
+                <li><a href="./acerca-de.html">Acerca de nosotros</a></li>
+              </ul>
+              
+            </nav>
+          </header>
+
+          <form action="">
+            <label for="txtNombre">Nombre</label>
+            <input type="text" id="txtNombre" name="txtNombre" value="" required>
+            <br>
+            <br>
+            <label for="txtCorreo">Correo</label>
+            <input type="text" id="txtCorreo" name="txtCorreo" value="" required>
+            <br>
+            <br>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" pattern="[0-9]{4}[-][0-9]{4}" required
+            title="Utilice el formato requerido" placeholder="8888-8888">
+            <br>
+            <br>
+            <textarea id="cuentenos" name="cuentenos" rows="4" cols="50"  placeholder="Información extra"></textarea>
+            <br>
+            <br>
+            <input type="submit">
+            <input type="reset" name="limpiar" value="Borrar datos del formulario" />
+
+
+
+        </form>
+          
+        <footer>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./conciencia.html">Conciencia</a></li>
+            <li><a href="./Noticias.html">Noticias</a></li>
+            <li><a href="./galeria.html"></a></li>
+            <li class="li-last"><a href="./acerca-de.html">Acerca de nosotros</a></li>
+          </ul>
+          <p>Copyright© <a href="#">Zaguate World</a></p>
+        </footer>
+        </div>
+      </div>
+        <div class="pasto">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+</html>

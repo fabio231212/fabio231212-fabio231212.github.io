@@ -12,7 +12,13 @@ body {
   background-color: #fff;
   border-radius: 30px;
   padding: 3%;
+
 }
+.containergrass{
+  background: transparent url(./images/grass.png) repeat-x bottom;
+}
+
+
 
 .logo {
   width: 100%;
@@ -234,4 +240,13 @@ table tbody {
 
 tfoot {
   background-color: #E5017D;
+}
+
+@media screen and (max-width: 720px){
+  .noticias{
+    display: block;
+  }
+  .noticia{
+    width: 100%;
+  }
 }
