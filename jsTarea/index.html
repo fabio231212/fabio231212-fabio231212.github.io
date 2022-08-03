@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form name="ifelse">
+        <label for="isNumber">Ejemplo if-else(¿Es número?) </label>
+        <input id="isNumber" type="textfield" name="isNumber" value="234">
+        <input type="button" value="comprobar" onclick="esNumero(document.ifelse.isNumber.value)">
+    </form>
+
+    <form name="precioFruta">
+        <label for="fruta">Consulte el precio de la fruta </label>
+        <input id="texto" type="textfield" name="texto" value="">
+        <input type="button" value="comprobar" onclick="frutaCompr(document.precioFruta.texto.value)">
+    </form>
+
+
+    <form name="potenciaCalc">
+        <label id="poten" for="potenciaNumber">Potencia2</label>
+        <input id="potenciaNumber" type="textfield" name="potenciaNumber" value="">
+        <input type="button" value="comprobar"
+            onclick="ejmFunctionPotencia(document.potenciaCalc.potenciaNumber.value)">
+    </form>
+
+    <h3>Lo demás aparece en consola</h3>
+    <script src="./script.js"></script>
+</body>
+
+</html>
